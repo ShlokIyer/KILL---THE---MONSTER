@@ -14,7 +14,7 @@ function setup() {
   engine = Engine.create();
   world = engine.world;
   // create sprites here
-  superhero = new SuperHero(200,350,250);
+  superhero = new Hero(200,350,250);
   ground = new Ground(500,450,1000,20);
   monster = new Monster(850,350,250);
   block1 = new Block(450,430,40,40);
